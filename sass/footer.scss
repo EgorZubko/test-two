@@ -1,0 +1,95 @@
+.footer_info {
+    background: #EBEDF3;
+    opacity: 0.85;
+    backdrop-filter: blur(2px);
+    .content_footer {
+        max-width: calc(1224px + 15px * 2);
+	padding: 0 15px;
+	margin: 0 auto;
+    display: flex;
+    background: #EBEDF3;
+    }
+    .nav_footer {
+        padding-top: 39px;
+        background: #EBEDF3;
+        margin-left: 220px;
+        
+        p {
+            padding-bottom: 29px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #373A46;
+        }
+    }
+    .nav_footer:first-child {
+        margin: 0;
+    }
+    .contacts {
+        padding-top: 40px;
+        padding-left: 243px;
+        p {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #8B8B8B;
+            padding-bottom: 4px;
+        }
+        .num {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #373A46;
+            padding-bottom: 24px;
+
+        }
+        .email {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #373A46;
+            padding-bottom: 24px;
+        }
+        
+    }
+    .line {
+        width: 1920px;
+        height: 1px;
+        left: 0px;
+        top: 1161px;
+        background: #DDE0E8;
+        margin-bottom: 24px;
+    }
+    .social {
+        display: flex;
+        margin-bottom: 28px;
+        position: relative;
+        p {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #808080;
+            margin-right: 264px;
+        }
+        
+
+    }
+    .social p:last-child {
+        margin-right: 20px;
+    }
+    .social_icons {
+       position: absolute;
+       top: 186px;
+       right: 400px;
+    }
+}
