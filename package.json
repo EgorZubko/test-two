@@ -4,8 +4,8 @@
   "source": "src/index.html",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+   "start": "parcel src/index.html",
+    "build": "parcel build src/index.html parcel build ./app/packs/entrypoints/*.js --no-minify"
   },
   "keywords": [],
   "author": "",
